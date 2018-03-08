@@ -6,15 +6,16 @@
 </head>
 <body>
 <h1>Inicie sesion</h1>
-<form action="login/validar" method="post">
- usuario : 
-	<input type="text" name="usuario"/> <br><br>
-	contraseña : 
-	<input type="password" name="pass" /><br><br>
+<form action="<?= base_url() ?>login/validar" method="post">
+	<div>
+	 	<label>Usuario</label>
+		<input type="text" name="usuario"/>
+	</div>
+	<div>
+		<label>Contraseña</label>
+		<input type="password" name="pass" />
+	</div>
 	<input type="submit" value ="Enviar" />
-
-
-
 </form>
 </body>
 </html>
