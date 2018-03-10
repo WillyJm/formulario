@@ -15,7 +15,10 @@
 		<label>Contraseña</label>
 		<input type="password" name="pass" />
 	</div>
+	<div>
 	<input type="submit" value ="Enviar" />
+	</div>
+	<input type="submit" value="Registro"/>
 </form>
 </body>
 </html>
