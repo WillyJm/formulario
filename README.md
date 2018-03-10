@@ -14,3 +14,6 @@ Comando con el cual confirmas todos los cambios del area principal y en el cual 
 
 Comando para subir todos los commit que se hagan generado
 `git push origin`
+
+Comando para descargar todos los cambios de la nube cuando no tienes cambios por subir
+`git pull origin master`
